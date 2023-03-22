@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Steve</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- criando o header -->
+    <header class="header-page">
+        <h1>Spooky Steve</h1>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/release.html">Press Release</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- fim do header -->
+    
+    
+
+<div class="container">
+    <div class="light"></div>
+    <script type="text/javascript">
+
+        var pos = document.documentElement;
+        pos.addEventListener('mousemove', e =>{
+            pos.style.setProperty('--x', e.clientX + 'px')
+            pos.style.setProperty('--y', e.clientY + 'px')
+        } )
+    </script>
+    
+    
+    <!-- Card1 -->
+    <div class="card">
+        <img src="./Images/Lamp-export.png" alt="Titulo do Jogo: Spooky Steve" class="card-img">
+        <h1>Conceito Principal</h1>
+        <p class="card-text">Spooky Steve é um jogo de Terror e Shooter 2D, onde você controla Steve, um caçador de criaturas da noite, mas, cuidado uma escuridão terrível se abateu sobre o mundo, como nenhuma outra e até mesmo um caçador experiente como o Steve pode perder a sua sanidade na escuridão, então fique na luz, recarregue seu revolver de balas de prata e tente desvendar a origem dessa escuridão.</p>
+    </div>
+    <!-- Fim Card1 -->
+
+    <!-- Card2 -->
+
+    <div class="card">
+        <img  src="./Images/Ambientação_pix.png" alt="Icone de Personagens" class="card-img">
+        <h1>Ambientação</h1>
+        <p class="card-text">Desde antes da criação do mundo diversas criaturas vagam a terra. Sempre presentes, mas, sempre separados do mundo humano, porém, uma escuridão sobrenatural veio para mudar isso. Sem a proteção da luz do dia a humanidade fica a mercê de todo tipo de criatura. Essa escuridão parece se aglomerar em lugares específicos como: mansões, cemitérios, hospitais, lugares aonde o tecido entre a vida e a morte afinam.</p>
+    </div>
+    <!-- Fim Card2 -->
+    <!-- Card3 -->
+    <div class="card">
+        <img  src="./Images/Personagens_pix.png" alt="Icone de Personagens" class="card-img">
+        <h1>Personagens</h1>
+        <h2>Steve</h2>
+        <p class="card-text">Treinado desde muito jovem a identificar e abater criaturas que se escondem nas sombras, Steve apesar de não ser imune aos perigos da escuridão é o mais indicado para acabar com as forças do mal.</p>
+        <h2>A Sombra</h2>
+        <p class="card-text">Pouco se sabe sobre de onde a escuridão veio, mas uma coisa é certa, todos sentem que ela emana de algo, ou alguém. </p>
+        <h2>Well</h2>
+        <p class="card-text">Well é um obscuro vendedor de artigos sobrenaturais, a muito ele vem sendo o fornecedor de Steve em artigos necessários para caçar o sobrenatural.</p>
+    </div>
+    <!-- Fim Card3 -->
+
+    <!-- Card4 -->
+    <div class="card">
+        <img  src="./Images/Mecanicas.png" alt="Icone de Mecanicas" class="card-img">
+        <h1>Mecânicas</h1>
+        <p class="card-text"></p>
+        <h2>Vida</h2>
+        <img class="img-size" src="./Images/Life.png" alt="Icone de Vida.">
+        <p class="card-text">O jogador possui uma barra de HP que ao chegar a 0 causada pelo ataque dos monstros leva a morte do jogador e o game over.
+        <p class="card-text"> O jogador possui uma barra de insanidade causada pela escuridão, ficar no escuro faz ela encher até chegar a 100% e o jogador perder.</p>
+        </p>
+        <h2>Movimento</h2>
+        
+        <img class="img-size" src="./Images/Directional_Buttons.png" alt="Icone de Duas Setas para Direita e Esquerda">
+        <p class="card-text">Botões direcionais para Direita, Esquerda, Baixo e Cima</p>
+        <img class="img-size" src="./Images/Jump_button.png" alt="Icone de Botão de Pulo">
+        <p class="card-text">Pulo com botão do lado direita da Tela</p>
+        <img class="img-size" src="./Images/Plataforma_Down_Movement.png" alt="Icone representando o movimento de descer de uma plataforma.">
+        <p class="card-text">Segurar pra baixo e pulo para descer de uma plataforma</p>
+        <h2>Combate</h2>
+        <img class="img-size" src="./Images/shoot.png" alt="Icone de uma bala.">
+        <p class="card-text">Botão de Tiro do lado direito da tela para disparar seu revólver.</p>
+        <img class="img-size" src="/Images/gun-cylinder.png" alt="">
+        <p class="card-text">Botão de Cilindro que serve como reload do Revolver do personagem.</p>
+        <img class="img-size" src="/Images/Ammo.png" alt="Icone de varias balas de cores diferentes">
+        <p class="card-text" >Diferentes munições para diferentes criaturas</p>
+
+        <h2>Escuridão</h2>
+        <img class="img-size" src="./Images/darkness.png" alt="Icone representando a escuridão">
+        <p class="card-text">A escuridão é sempre presente e sobrenatural, ela engole gradativamente todas as luzes, dando um senso de urgência no jogador.</p>
+        <h2>Sanidade</h2>
+        <img class="img-size" src="/Images/sanity.png" alt="Icone de cérebro">
+        <p class="card-text">Ficar muito tempo na escuridão levará Steve a loucura causando o fim de jogo, então fique na luz!</p>
+    </div>
+    <!-- Fim Card4 -->
+
+<footer class="footer-page">
+    <h2 class="footer-title">Spooky Steve - Todos os direitos reservados - Fique na luz!</h2>
+</footer>
+
+</body>
+</html>
