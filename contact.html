@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- criando o header -->
+    <header class="header-page">
+        <h1>Spooky Steve</h1>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/release.html">Press Release</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <!-- <li><a href="">Contact</a></li> -->
+            </ul>
+
+        </nav>
+    </header>
+    <!-- fim do header -->
+
+    <div class="container">
+        <div class="light"></div>
+        <script type="text/javascript">
+    
+            var pos = document.documentElement;
+            pos.addEventListener('mousemove', e =>{
+                pos.style.setProperty('--x', e.clientX + 'px')
+                pos.style.setProperty('--y', e.clientY + 'px')
+            } )
+        </script>
+        
+        
+    <div class="card" id="card-form">
+
+        <h1>Formulário de Contato</h1>
+
+        <form  name="dados" method ="post"></form>
+
+            <div class="formulario">
+                <input class="formfield" type="text" name="nome" id="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="formulario">
+                <input class="formfield" type="text" name="email" id="email" placeholder="Seu e-mail" required>
+            </div>
+            <div class="formulario">
+                <input class="formfield" type="tel" name="celular" id="celular" placeholder="Seu celular" required>
+            </div>
+            <div class="formulario">
+                <textarea  name="mensagem" id="mensagem"  placeholder="Escreva sua mensagem:"></textarea>
+            </div>
+
+            <div class="formulario">
+                <input type="submit" id="enviar" name="enviar" value="Enviar">
+            </div>
+    </div>
+</div>
+
+<footer class="footer-page">
+    <h2 class="footer-title">Spooky Steve - Todos os direitos reservados - Fique na luz!</h2>
+</footer>
+
+</body>
+</html>
